@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin : 10px;
     padding : 5px;
-    background-color: #f0ecec;
+    background-color: #ffffff;
 }
 
 .card {
@@ -10,14 +10,15 @@ body {
     flex-direction : column;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to right,#00416a,
-    #e4e5e6);
+    background:linear-gradient(to right,#00416a, #e4e5e6);
     border-radius: 20px;
     padding : 20px;
+    box-shadow: 1px 1px 3px 3px #293136;
 }
 
 h1{
   color : rgb(118, 50, 50);
+  text-shadow: rgb(45, 16, 2);
 }
 
 #text-box {
@@ -35,7 +36,9 @@ li{
 
 .shop-item-selected {
   text-decoration: line-through;
-  color : black;
+  color : white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #item-list {
@@ -43,8 +46,10 @@ li{
   width:80%;
 }
 .shop-item { 
-  color : black;
+  color : #306587;
   text-align : center;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  
 }
 .list-item {
   display : flex;
